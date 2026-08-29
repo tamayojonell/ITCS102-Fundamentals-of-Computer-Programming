@@ -1,6 +1,6 @@
-money = input("Amount to be deposite:")
+money = 19863
 
-print("The amount of money receivedd:", money)
+print("The amount of money received:", money)
 print("1000:", int(money)//1000)
 print("500:", int(money)%1000//500)
 print("200:", int(money)%1000%500//200)
