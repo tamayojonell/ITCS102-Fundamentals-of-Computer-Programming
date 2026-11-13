@@ -32,7 +32,6 @@ for x in range(months):
 print()
 
 
-
 #TASK 2
 print("TASK NUMBER 2")
 print("\n")
