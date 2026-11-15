@@ -1,7 +1,20 @@
-for x in range(5):
-    for y in range(5):
-        if x == 0 or y == 4 or x == 4 or y == 0:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
+#list
+fruits = ["Apple", "Banana", "Watermelon", "Melon", "Orange", "Grapes", "Mango", "Pineapple"]
+print(fruits)
+
+#list functions
+fruits.append("Strawberry")
+fruits.append("Cherry")
+fruits.append("Longgan")
+fruits.append("Lanzones")
+fruits.append("Durian")
+fruits.append("Rambutan")
+fruits.append("Santol")
+print(fruits)
+print(fruits[2])
+print(fruits[5])
+print(fruits[-3])
+fruits.insert(4, "Duhat")
+print(fruits)
+fruits.remove("Durian")
+print(fruits)
